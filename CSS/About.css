@@ -1,0 +1,570 @@
+*{
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+
+
+
+            /*Navbar Starting*/
+            
+.nav-logo{
+    width: 1420px;
+    display: flex;
+    padding: 0px 23px;
+/*    background: linear-gradient(353deg,#020202,#31a59f52);*/
+    background-color: black;
+    position: fixed;
+    z-index: 1000;
+    opacity: 0.8;
+    
+
+}
+
+        /*Logo*/
+
+.logo{
+	margin: 0px 236px;
+}
+
+.logo img{
+	width: 70px;
+	margin: 10px 5px;
+	border-radius: 50px;
+}
+
+        /*Anchor Tags*/
+
+.nav{
+	margin: 0px 163px;
+}
+
+.nav li{
+	float: right;
+	margin: 40px 20px;
+	list-style: none;
+}
+
+.nav a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+            /*Navbar Ending*/
+
+
+
+
+
+            /*arshad-robotics Starting*/
+
+.arshad-robotics{
+	display: flex;
+	padding: 50px 0px;
+}
+
+.arshad-robotics h1{
+    margin: 110px 30px;
+    font-family: sans-serif;
+
+}
+
+.arshad-robotics p{
+    margin: -66px 30px;
+	font-size: 19px;
+	font-family: sans-serif;
+}
+
+.arshad-robotics img{
+	width: 350px;
+	margin: 43px 45px;
+}
+
+
+
+            /*Button*/
+
+.arshad-robotics button {
+ position: relative;
+ display: inline-block;
+ cursor: pointer;
+ outline: none;
+ border: 0;
+ vertical-align: middle;
+ text-decoration: none;
+ background: transparent;
+ padding: 0;
+ font-size: inherit;
+ font-family: inherit;
+}
+
+.arshad-robotics button.learn-more {
+ width: 12rem;
+ height: auto;
+}
+
+.arshad-robotics button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 98PX 4PX;
+    width: 3rem;
+    height: 3rem;
+    background: #282936;
+    border-radius: 1.625rem;
+}
+
+.arshad-robotics button.learn-more .circle .icon {
+ transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ margin: auto;
+ background: #fff;
+}
+
+.arshad-robotics button.learn-more .circle .icon.arrow {
+ transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+ left: 0.625rem;
+ width: 1.125rem;
+ height: 0.125rem;
+ background: none;
+}
+
+.arshad-robotics button.learn-more .circle .icon.arrow::before {
+ position: absolute;
+ content: "";
+ top: -0.29rem;
+ right: 0.0625rem;
+ width: 0.625rem;
+ height: 0.625rem;
+ border-top: 0.125rem solid #fff;
+ border-right: 0.125rem solid #fff;
+ transform: rotate(45deg);
+}
+
+.arshad-robotics button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 94PX;
+    left: 33px;
+    right: 400PX;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.arshad-robotics button:hover .circle {
+ width: 100%;
+}
+
+.arshad-robotics button:hover .circle .icon.arrow {
+ background: #fff;
+ transform: translate(1rem, 0);
+}
+
+.arshad-robotics button:hover .button-text {
+ color: #fff;
+}
+
+
+            /*arshad-robotics Ending*/
+
+
+
+
+
+
+
+            /*AI-Platform Starting*/
+
+.AI-platform{
+	display: flex;
+	margin: 30px 0px;
+	background-color: #f7f7f7;
+}
+
+.AI-platform h1{
+	margin: 115px 92px;
+    font-family: sans-serif;
+
+}
+
+.AI-platform p{
+    margin: -73px 92px;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+
+
+.AI-platform button {
+ position: relative;
+ display: inline-block;
+ cursor: pointer;
+ outline: none;
+ border: 0;
+ vertical-align: middle;
+ text-decoration: none;
+ background: transparent;
+ padding: 0;
+ font-size: inherit;
+ font-family: inherit;
+}
+
+.AI-platform button.learn-more {
+ width: 12rem;
+ height: auto;
+}
+
+.AI-platform button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 98px 92px;
+    width: 3rem;
+    height: 3rem;
+    background: #282936;
+    border-radius: 1.625rem;
+}
+
+.AI-platform button.learn-more .circle .icon {
+ transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ margin: auto;
+ background: #fff;
+}
+
+.AI-platform button.learn-more .circle .icon.arrow {
+ transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+ left: 0.625rem;
+ width: 1.125rem;
+ height: 0.125rem;
+ background: none;
+}
+
+.AI-platform button.learn-more .circle .icon.arrow::before {
+ position: absolute;
+ content: "";
+ top: -0.29rem;
+ right: 0.0625rem;
+ width: 0.625rem;
+ height: 0.625rem;
+ border-top: 0.125rem solid #fff;
+ border-right: 0.125rem solid #fff;
+ transform: rotate(45deg);
+}
+
+.AI-platform button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 99PX;
+    left: 120px;
+    right: 400PX;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.AI-platform button:hover .circle {
+ width: 100%;
+}
+
+.AI-platform button:hover .circle .icon.arrow {
+ background: #fff;
+ transform: translate(1rem, 0);
+}
+
+.AI-platform  button:hover .button-text {
+ color: #fff;
+}
+            /*AI-Platform Ending*/
+
+
+
+
+
+
+            /*Arshad Education Starting*/
+
+.education{
+	text-align: center;
+	height: 200px;
+}
+
+.education p{
+	margin: 14px auto;
+    padding: 9px 252px;
+    font-size: 19px;
+}
+            /*Arshad Education Ending*/
+
+
+
+
+
+            /*Awards Starting*/
+
+.Awards{
+    text-align: center;
+    padding: 100px 209px;
+    color: white;
+    background-color: #181818;
+    font-size: 17px;
+}
+
+.Awards h1{
+	margin: 24px auto;
+}
+
+/*.Awards button{
+    margin: 20px auto;
+	width: 123px;
+    height: 40px;
+    border: 1px solid white;
+    background-color: #181818;
+    color: #c5c5c5;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}*/
+
+.button {
+    margin: 0px 400px;
+    --color: #ffffff;
+    margin: 30px 0px;
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: 2.3000000000000007em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+}
+
+.button::before, .button::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+}
+
+.button::before {
+    transition-duration: 1.8s;
+    top: -1em;
+    left: -1em;
+}
+
+.button::after {
+    transition-duration: 1.8s;
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+}
+
+.button:hover::before, .button:hover::after {
+    height: 410px;
+    width: 410px;
+}
+
+.button:hover {
+    color: rgb(10, 25, 30);
+}
+
+.button:active {
+    filter: brightness(.8);
+}
+
+            /*Awards Ending*/
+
+
+
+
+            /*Our Partners Starting*/
+
+.Partners{
+	text-align: center;
+}
+
+.Partners h1{
+	margin: 20px auto;
+}
+
+.Partners2 img{
+    margin: -413px 155px;
+}
+
+            /*Our Partners Ending*/
+
+
+
+
+            /*Footer Starting*/
+
+.footer{
+	font-family: sans-serif;
+	margin: 465px 0px;
+	display: flex;
+	background-color: black;
+}
+
+.footer a{
+    color: white;
+}
+
+.footer li{
+	display: flex;
+	margin: 15px 0px;
+}
+
+
+        /*Company*/
+.company{
+    margin: 10px 187px;
+}
+
+.company h2{
+	color: white;
+	margin: 20px -5px;
+	font-size: 20px;
+
+}
+
+
+
+        /*Resources*/
+.resources{
+/*	margin: 10px 150px;*/
+    margin: 10px 54px;
+}
+
+.resources h2{
+	color: white;
+	margin: 20px -3px;
+	font-size: 20px;
+
+}
+ 
+
+
+        /* News*/
+.news{
+    margin: 10px 174px;
+}
+
+.news h2{
+	color: white;
+	margin: 20px auto;
+	font-size: 20px;
+}
+
+.news-btn {
+    margin: 0px 400px;
+    --color: #ffffff;
+    margin: 30px 0px;
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: 2.3000000000000007em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+}
+
+.news-btn::before, .button::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+}
+
+.news-btn::before {
+    transition-duration: 1.8s;
+    top: -1em;
+    left: -1em;
+}
+
+.news-btn::after {
+    transition-duration: 1.8s;
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+}
+
+.news-btn:hover::before, .button:hover::after {
+    height: 410px;
+    width: 410px;
+}
+
+.news-btn:hover {
+    color: rgb(10, 25, 30);
+}
+
+.news-btn:active {
+    filter: brightness(.8);
+}
+
+
+.news input{
+    margin: 3px -10px;
+    padding: 15px 65px;
+    border-radius: 20px;
+}
+            /*Footer Ending*/
+
+
+
+
+            /*Footer2 Starting*/
+
+.footer2{
+	text-align: center;
+	font-weight: bold;
+/*	background: linear-gradient(353deg,#020202,#31a59f52);*/
+background-color: black;
+margin: -465px 0px;
+
+}
+
+.footer2 a{
+    color: white;
+    text-decoration: none;
+}
+            /*Footer2 Ending*/

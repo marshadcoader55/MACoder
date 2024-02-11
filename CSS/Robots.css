@@ -1,0 +1,307 @@
+*{
+	font-family: sans-serif;
+}
+
+
+
+        /*Navbar Starting*/
+            
+.nav-logo{
+    width: 1458px;
+    height: 95px;
+    display: flex;
+    padding: 1px 23px;
+/*    background: linear-gradient(353deg,#020202,#31a59f52);*/
+    background-color: black;
+    position: fixed;
+    z-index: 1000;
+    opacity: 0.8;
+    margin: 3px -13px;
+    
+
+}
+
+        /*Logo*/
+
+.logo{
+    margin: 0px 236px;
+}
+
+.logo img{
+    width: 70px;
+    margin: 10px 5px;
+    border-radius: 50px;
+}
+
+        /*Anchor Tags*/
+
+.nav{
+    margin: -15px 163px;
+}
+
+.nav li{
+    float: right;
+    margin: 40px 20px;
+    list-style: none;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+        /*Navbar Ending*/
+
+
+
+
+
+        /*Robot Interview Starting*/
+
+.robot-interview{
+	height: 500px;
+	display: flex;
+	margin: -11px -8px;
+    padding: 92px 0px;
+}
+
+.robot-interview h3{
+    margin: 100px 8px;
+}
+
+.robot-interview h1{
+    margin: -100px 8px;
+}
+
+.robot-interview p{
+    margin: 135px 10px;
+    font-size: 20px;
+}
+
+.robot-interview img{
+    width: 580px;
+    height: 408px;
+    margin: 40px 57px;
+}
+        /*Robot Interview Ending*/
+
+
+
+
+           /*Images Starting*/
+
+ .Robot{
+    margin: -75px -8px;
+ }          
+/*.Robot-img img{
+	justify-content: space-around;
+	margin: 10px 0px;
+}*/
+
+.Robot img{
+    width: 267px;
+    height: 266px;
+    margin: 10px 31px;
+}
+           /*Images Ending*/
+
+
+
+
+            /*Arshad Education Starting*/
+
+.education{
+	text-align: center;
+	height: 200px;
+	margin: 50px auto;
+}
+
+.education p{
+	margin: 120px auto;
+    padding: 9px 252px;
+    font-size: 19px;
+}
+
+.education h1{
+    margin: -123px 0px;
+}
+            /*Arshad Education Ending*/
+
+
+
+
+            /*Icons Starting*/
+
+.icon{
+    height: 150px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: -7px 11px;
+    background-color: white;
+    box-shadow: 0px 2px 14px #a7a5a5;
+}
+
+.icon h1{
+    margin: 45px auto;
+}
+.icon a i{
+    width: 30px;
+    margin: -10px 23px;
+    color: black;
+}
+            /*Icons Ending*/
+
+
+
+
+            /*Footer Starting*/
+
+.footer{
+    display: flex;
+    background-color: black;
+    margin: 30px 0px;
+}
+
+.footer a{
+/*  text-decoration: none;*/
+    color: white;
+}
+
+.footer li{
+    display: flex;
+    margin: 15px 0px;
+}
+
+
+        /*Company*/
+.company{
+    margin: 10px 147px;
+}
+
+.company h2{
+    color: white;
+    margin: 20px 37px;
+    font-size: 20px;
+
+}
+
+
+
+        /*Resources*/
+.resources{
+    margin: 10px 4px;
+}
+
+.resources h2{
+    color: white;
+    margin: 20px 43px;
+    font-size: 20px;
+
+}
+ 
+
+
+        /* News*/
+.news{
+    margin: 10px 134px;
+}
+
+.news h2{
+    color: white;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+
+               /*Footer Button Starting*/
+#news-btn {
+    --color: #ffffff;
+    margin: 10px 0px;
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: 2.3000000000000007em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+}
+
+#news-btn::before, .button::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+}
+
+#news-btn::before {
+    transition-duration: 1s;
+    top: -1em;
+    left: -1em;
+}
+
+#news-btn::after {
+    transition-duration: 1.8s;
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+}
+
+#news-btn:hover::before, .button:hover::after {
+    height: 410px;
+    width: 410px;
+}
+
+#news-btn:hover {
+    color: rgb(10, 25, 30);
+}
+
+#news-btn:active {
+    filter: brightness(.8);
+}
+
+.news input{
+    margin: 3px -10px;
+    padding: 15px 65px;
+    border-radius: 20px;
+}
+           /*Footer Button Ending*/
+
+.news input{
+    margin: 3px -10px;
+    padding: 15px 65px;
+    border-radius: 20px;
+}
+            /*Footer Ending*/
+
+
+
+            /*Footer 2 Starting*/
+
+.footer2{
+    text-align: center;
+    font-weight: bold;
+    background-color: black;
+    margin: -31px 0px;
+
+}
+
+.footer2 a{
+    color: white;
+    text-decoration: none;
+}
+            /*Footer 2 Ending*/

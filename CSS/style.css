@@ -1,0 +1,530 @@
+*{
+	margin: 0px;
+	padding: 0px;
+    font-family: sans-serif;
+}
+
+            /*Navbar Starting*/
+
+.nav-logo{
+    width: 1420px;
+    display: flex;
+    background-color: black;
+    position: fixed;
+    padding: 0px 2px;
+    z-index: 1000;
+    opacity: 0.8;
+
+}
+
+        /*Logo*/
+
+.logo{
+    margin: 0px 236px;
+}
+
+.logo img{
+    width: 70px;
+    margin: 10px 5px;
+    border-radius: 50px;
+}
+
+        /*Anchor Tags*/
+
+.nav{
+    margin: 0px 163px;
+}
+
+.nav li{
+    float: right;
+    margin: 40px 20px;
+    list-style: none;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+            /*Navbar Ending*/
+
+
+
+
+            /*Banner Starting*/
+.banner{
+    width: 100%;
+    padding-top: 98px;
+}
+.banner-img{
+	background-image: url('../img/img/blue.jpg');
+	background-size: cover;
+    height:600px;
+
+}
+
+.banner-img h1{
+    color: white;
+    text-align: center;
+    padding: 220px 0px;
+    font-family: sans-serif;
+    font-size: 80px;
+}
+
+.banner-img p{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 33px 6px; 
+    margin: -176px 152px;
+    font-family: sans-serif;
+}
+            /*Banner Ending*/
+
+
+
+
+            /*human-like Starting*/
+
+.human-like{
+	color: white;
+    text-align: center;
+    padding: 76px 186px;
+/*    height: 250px;*/
+    background-image: url('../img/img/img.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.human-like h1{
+	margin: 23px 0px;
+}
+
+.human-like p{
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+button {
+ outline: none;
+ cursor: pointer;
+ border: none;
+ padding: 0.9rem 2rem;
+ margin: 0;
+ font-family: inherit;
+ font-size: inherit;
+ position: relative;
+ display: inline-block;
+ letter-spacing: 0.05rem;
+ font-weight: 700;
+ font-size: 17px;
+ border-radius: 500px;
+ overflow: hidden;
+ background: #66ff66;
+ color: ghostwhite;
+}
+
+button span {
+ position: relative;
+ z-index: 10;
+ transition: color 0.4s;
+}
+
+button:hover span {
+ color: black;
+}
+
+button::before,
+button::after {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ z-index: 0;
+}
+
+button::before {
+    content: "";
+    background: #201e1efc;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+
+}
+
+button:hover::before {
+ transform: translate3d(100%, 0, 0);
+}
+
+            /*human-like Ending*/
+
+
+
+
+            /*M Arshad AI Starting*/
+
+.learn{
+	display: flex;
+	margin: 0px 0px;
+	background-color: black;
+	color: white;
+}
+
+.learn h1,p{
+    text-align: center;
+    margin: 10px 50px;
+    font-family: sans-serif;
+    font-size: 50px;
+    padding: 36px 0px;
+}
+
+.learn h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 16px 0px;
+}
+.learn p{
+	padding: 19px 40px;
+/*	font-weight: bold;*/
+	font-size: 20px;
+}
+.learn img{
+	width: 350px;
+	margin: 50px 20px;
+}
+
+.button {
+    margin: 0px 400px;
+    --color: #ffffff;
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: 2.3000000000000007em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+}
+
+.button::before, .button::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+}
+
+.button::before {
+    transition-duration: 1.8s;
+    top: -1em;
+    left: -1em;
+}
+
+.button::after {
+    transition-duration: 1.8s;
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+}
+
+.button:hover::before, .button:hover::after {
+    height: 410px;
+    width: 410px;
+}
+
+.button:hover {
+    color: rgb(10, 25, 30);
+}
+
+.button:active {
+    filter: brightness(.8);
+}
+
+            /*M Arshad AI Endingting*/
+
+
+
+ 
+            /*Being Sopia Starting*/
+
+.invention{
+    margin: -20px 0px;
+    display: flex;
+}
+
+.invention img{
+    width: 410px;
+    height: 500px;
+    margin: 50px 80px;
+}
+
+.invention h1 img{
+    text-align: center;
+    font-size: 50px;
+    padding: 86px 188px;
+    margin: -21px auto;
+}
+
+.invention p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: -75px 42px;
+}
+
+
+                     /*Buttons Starting*/
+
+#button {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 0.9rem 2rem;
+    margin: 55px 184px;
+    font-family: inherit;
+    font-size: inherit;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 500px;
+    overflow: hidden;
+    background: #66ff66;
+    color: black;
+}
+
+#button span {
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+}
+
+#button:hover span {
+    color: white;
+}
+
+#button::before,
+#button::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+#button::before {
+    content: "";
+    background: #e7e7e7;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+#button:hover::before {
+    transform: translate3d(100%, 0, 0);
+}
+                     /*Buttons Ending*/
+                     
+            /*Being Sopia Ending*/
+
+
+
+
+
+            /*Latest Invention Starting*/
+
+.latest-invention{
+	background-color: black;
+	height: 650px;
+}
+
+.latest-invention h1{
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	font-size: 60px;
+	padding: 70px 0px;
+}
+
+.latest-invention img{
+    width: 330px;
+    margin: -80px 1px;
+}
+            /*Latest Invention Ending*/
+
+
+
+
+
+            /*Last portion Starting*/
+
+.last-portion{
+	background-image: url('../img/img/front.webp');
+	background-size: cover;
+/*	opacity: 0.8;*/
+	padding: 23px 0px;
+}
+.last-portion p{
+    margin: 169px auto;
+    font-size: 25px;
+    padding: 0px 274px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.last-portion input{
+    margin: -148px 501px;
+    padding: 15px 85px;
+    border-radius: 20px;
+}
+.last-portion button{
+    margin: 28px 501px;
+    padding: 9px 15px;
+    border-radius: 21px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border: 0px;
+}
+
+
+            /*Last portion Ending*/
+
+
+
+           /*Link Heading Starting*/
+.icon h1{
+    margin: 23px 0px;
+}
+
+           /*Link Heading Ending*/
+
+
+
+
+            /*Footer Starting*/
+
+.footer{
+    display: flex;
+    background-color: black;
+}
+
+.footer a{
+    color: white;
+}
+
+.footer li{
+    display: flex;
+    margin: 15px 0px;
+}
+
+
+        /*Company*/
+.company{
+
+    margin: 10px 187px;
+}
+
+.company h2{
+    color: white;
+    margin: 20px -5px;
+    font-size: 20px;
+
+}
+
+
+
+        /*Resources*/
+.resources{
+/*  margin: 10px 150px;*/
+    margin: 10px 54px;
+}
+
+.resources h2{
+    color: white;
+    margin: 20px -3px;
+    font-size: 20px;
+
+}
+ 
+
+
+        /* News*/
+.news{
+    margin: 10px 174px;
+}
+
+.news h2{
+    color: white;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+.news button{
+    background-color: red;
+    margin: 8px 0px;
+}
+
+
+.news input{
+    margin: 3px -10px;
+    padding: 15px 65px;
+    border-radius: 20px;
+}
+            /*Footer Ending*/
+
+
+
+            /*Footer 2 Starting*/
+
+.footer2{
+    text-align: center;
+    font-weight: bold;
+    background-color: black;
+}
+
+.footer2 a{
+    color: white;
+    text-decoration: none;
+}
+            /*Footer 2 Ending*/
+
+
+
+            /*Whatts App Icon Starting*/
+
+.whatsapp-icon{
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+}
+.whatsapp-icon img{
+    width: 50px;
+
+}
+
+
+
+            /*Whatts App Icon Ending*/

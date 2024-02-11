@@ -1,0 +1,390 @@
+.main{
+	font-family: sans-serif;
+	height: 800px;
+}
+
+            /*Navbar starting*/
+
+.nav-logo{
+    width: 1458px;
+    display: flex;
+    /* background: linear-gradient(353deg,#020202,#31a59f52); */
+    background-color: black;
+    position: fixed;
+    z-index: 1000;
+    opacity: 0.8;
+    margin: -23px -8px;
+
+}
+
+
+
+        /*Logo*/
+
+.logo{
+	margin: 10px 236px;
+}
+
+.logo img{
+	width: 70px;
+	margin: 10px 5px;
+	border-radius: 50px;
+}
+
+        /*Anchor Tags*/
+
+.nav{
+	margin: 0px 163px;
+}
+
+.nav li{
+	float: right;
+	margin: 40px 20px;
+	list-style: none;
+}
+
+.nav a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+
+                /*contact Heading Starting*/
+
+.contact{
+    padding: 115px 5px;
+}
+.contact h1,h5{
+	text-align: center;
+	padding: 0px 350px;
+}
+
+.contact h5{
+	font-size: 18px;
+}
+                /*contact Heading Ending*/
+
+
+
+                /*Form Starting*/
+
+.form form{
+	margin: -80px 0px;
+}
+.form,h6,input{
+	margin: 5px 200px;
+}
+
+.form h6{
+	font-size: 18px;
+}
+
+.form input{
+    padding: 15px 100px;
+    border-radius: 15px;
+	border: 1px solid #c5c4c4;
+}
+
+.form select{
+	margin: 5px 200px;
+	padding: 15px 140px;
+	border-radius: 18px;
+	border: 1px solid #c5c4c4;
+}
+
+.form textarea{
+	margin: 5px 200px;
+	padding: 0px 0px;
+	border-radius: 10px;
+	border: 1px solid #c5c4c4;
+}
+
+                /*Form Ending*/
+
+
+
+                /*I a not a robot Starting*/
+
+iframe{
+    margin: 82px 400px;
+    border-radius: 10px;
+}
+
+.btn{
+    margin: -82px 400px;
+    position: absolute;
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px 35px;
+}
+
+.btn:hover{
+    width: 40px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    transition-duration: 1s;
+    transform: rotateX(30deg);
+    box-shadow: 23px 34px 33px black;
+}
+                /*I a not a robot Ending*/
+
+
+.address{
+	height: 430px;
+	width: 1300px;
+	margin: 100px 20px;
+    background-color: white;
+    box-shadow: 0px 2px 14px #a7a5a5;
+	display: flex;
+}
+
+.address h6{
+    font-size: 18px;
+    padding: 95px 4px;
+    margin: 0px 159px;
+}
+
+.address h1{
+    padding: 7px 159px;
+    margin: -86px 0px;
+}
+
+.address img{
+    margin: 34px 57px;
+    border-radius: 10px;
+}
+
+
+                /*Last Portion Starting*/
+.last-portion{
+	display: flex;
+	justify-content: space-around;
+}
+
+#last-portion-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+#last-portion-btn {
+    --color: white;
+    margin: 10px 0px;
+    padding: 0.8em 1.7em;
+    background-color: black;
+    border-radius: 2.3000000000000007em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+/*    border: 1px solid;*/
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+}
+
+#last-portion-btn::before, .button::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-25%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+}
+
+#last-portion-btn::before {
+    transition-duration: 1s;
+    top: -1em;
+    left: -1em;
+}
+
+#last-portion-btn::after {
+    transition-duration: 1.8s;
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+}
+
+#last-portion-btn:hover::before, .button:hover::after {
+    height: 410px;
+    width: 410px;
+}
+
+#last-portion-btn a:hover {
+    color: rgb(10, 25, 30);
+}
+
+#last-portion-btn:active {
+    filter: brightness(.8);
+}
+                /*Last Portion Ending*/
+
+
+
+            /*Footer1 Starting*/
+
+.footer{
+    display: flex;
+    background-color: black;
+    margin: 140px -9px;
+    width: 1349px;
+}
+
+.footer a{
+/*	text-decoration: none;*/
+    color: white;
+}
+
+.footer li{
+	display: flex;
+	margin: 15px 0px;
+}
+
+
+        /*Company*/
+.company{
+    margin: 10px 147px;
+}
+
+.company h2{
+	color: white;
+	margin: 20px 37px;
+	font-size: 20px;
+
+}
+
+
+
+        /*Resources*/
+.resources{
+    margin: 10px 10px;
+}
+
+.resources h2{
+	color: white;
+	margin: 20px 43px;
+	font-size: 20px;
+
+}
+ 
+
+
+        /* News*/
+.news{
+    margin: 10px 134px;
+}
+
+.news h2{
+	color: white;
+	margin: 20px auto;
+	font-size: 20px;
+}
+
+               /*Footer Button Starting*/
+#news-btn a{
+    text-decoration: none;
+}
+#news-btn {
+    --color: #ffffff;
+    margin: 10px 0px;
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: 2.3000000000000007em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+}
+
+#news-btn::before, .button::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+}
+
+#news-btn::before {
+    transition-duration: 1s;
+    top: -1em;
+    left: -1em;
+}
+
+#news-btn::after {
+    transition-duration: 1.8s;
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+}
+
+#news-btn:hover::before, .button:hover::after {
+    height: 410px;
+    width: 410px;
+}
+
+#news-btn a:hover {
+    color: rgb(10, 25, 30);
+}
+
+#news-btn:active {
+    filter: brightness(.8);
+}
+
+.news input{
+    margin: 3px -10px;
+    padding: 15px 65px;
+    border-radius: 20px;
+}
+           /*Footer Button Ending*/
+.news input{
+    margin: 3px -10px;
+    padding: 15px 65px;
+    border-radius: 20px;
+}
+            /*Footer1 Ending*/
+
+
+
+            /*Footer2 Starting*/
+
+.footer2{
+    text-align: center;
+    font-weight: bold;
+    background-color: black;
+    margin: -140px -9px;
+    width: 1349px;
+}
+
+.footer2 a{
+    color: white;
+    text-decoration: none;
+}
+
+            /*Footer2 Ending*/
+
